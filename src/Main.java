@@ -125,7 +125,31 @@ public class Main {
 
             System.out.println("Задача 3.2");
 
-            int agePeople =
+            int agePeople = 10;
+            boolean x = agePeople <= 5;
+            boolean y = agePeople >5 && agePeople <=14;
+            boolean z = agePeople > 14;
+            if (y || z);
+            else System.out.println( " ребенок не может кататься на аттракционах! ");
+            if ( x|| z);
+            else System.out.println( " ребенок может кататься на аттракционах только в сопровождении взрослого. Если взрослого нет, то кататься нельзя! ");
+            if (x || y);
+            else System.out.println( " ребенок может кататься на аттракционах без сопрвождения взрослых! ");
+
+            System.out.println("Задача 3.3");
+
+            int one = 5;
+            int two = 15;
+            int three = 10;
+
+             if (two > one && two > three && two >= one) {System.out.println( "максимальное число равно " + two);}
+
+             if (three > two && three > one && three >=two ) {System.out.println( "максимальное число равно " + three);}
+
+             if (one > three && one > two && one>= three) {System.out.println( "максимальное число равно " + one);}
+
+
+
 
 
 
